@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="Carolina Passos - Architect and Urban Designer">
+    <meta name="viewport" content="width=device-width">
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+
+    <title>carolina passos</title>
+
+    <style type="text/css">
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        iframe {
+            overflow: hidden;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            right: 0px;
+            bottom: 0px;
+        }
+        .about-box {
+          color: #576870;
+          border-radius: 3px;
+          background-color: #fff;
+          background-color: rgba(255, 255, 255, 0.9);
+          font-family: 'Open Sans', sans-serif;
+          font-weight: 300;
+          font-size: 11px;
+          position: absolute;
+          left: 20px;
+          top: 20px;
+          z-index: 2;
+          padding: 20px;
+          width: 180px;
+          overflow: hidden;
+          text-align: center;
+        }
+        .about-box img {
+          width: 80%;
+          border-radius: 50%;
+        }
+        .about-profile,
+        .about-links,
+        .about-map {
+          text-align: left;
+          margin: 10px 0 0;
+        }
+        .about-map {
+          color: #E8092E;
+        }
+        .about-links {
+          display: inline-block;
+          list-style: none;
+          padding: 0;
+        }
+        .about-links li {
+          /*width: 50%;*/
+          margin-left: 20px;
+          text-align: left;
+          float: left;
+        }
+        .about-links li:first-child {
+          margin-left: 0;
+        }
+        .about-links a,
+        .about-links a:visited,
+        .about-links a:hover,
+        .about-links a:active {
+          text-decoration: none;
+          color: inherit;
+        }
+        .about-links a:hover {
+          color: #E8092E;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="about-box">
+        <img src="img/profile.png" alt="Carolina Passos">
+        <p class="about-profile">Carolina Passos is an architect and urban designer based in São Paulo, Brazil.</p>
+        <p class="about-map">This map is based on two data sets: daily activity and the intensity on each place. Feel free to explore it.</p>
+        <ul class="about-links">
+          <li><a href="mailto:carolina.pos@gmail.com">Email</a></li>
+          <li><a href="https://www.linkedin.com/in/carolinapos">LinkedIn</a></li>
+        </ul>
+    </div>
+
+    <iframe frameborder="0" height="100%" width="100%" src="https://api.mapbox.com/v4/carolpos.73b65c92/zoomwheel.html?access_token=pk.eyJ1IjoiY2Fyb2xwb3MiLCJhIjoiQ01qN3dEWSJ9.Vgyz5uVSv3sw9QgPqdPTtA#12/-23.5745/-46.6428"></iframe>
+
+    <script src="http://localhost:35729/livereload.js" charset="utf-8"></script>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-27724974-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+</body>
+</html>
